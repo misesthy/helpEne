@@ -2,6 +2,7 @@
 
 @section('main-userPanel')
             <!-- #masthead -->
+    <div class="content-wrapper">
             <div class="site-hero clearfix">
                 <div class="container">
                     <ol class="breadcrumb breadcrumb-custom">
@@ -52,9 +53,7 @@
                                             &lt;div
                                             <span class="text-danger">class=</span>
                                             <span class="text-primary">"form-group"</span>
-                                            &gt;
-  ...
-&lt;/div&gt;
+                                            &gt;...&lt;/div&gt;
                                         </pre>
                                         <p>
                                             This stylesheet code for
@@ -67,7 +66,7 @@
                                             {
                                             <span class="text-primary">margin-bottom</span>
                                             : 10px;
-}
+                                            }
                                         </pre>
                                         <p>Phasellus feugiat lobortis libero quis laoreet. Quisque ac fringilla purus. Integer eleifend, arcu eu egestas vestibulum, libero magna rhoncus magna, id pellentesque diam ante rutrum arcu. In hac habitasse platea dictumst. In vestibulum turpis nunc.</p>
                                     </div>
@@ -370,5 +369,6 @@
                     <!-- .content-area -->
                 </div>
             </div>
-            <!-- #main -->    
+            <!-- #main --> 
+    </div>
 @endsection

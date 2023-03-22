@@ -1,6 +1,6 @@
-@extends('manager.layouts.app')
+@extends('layouts.app')
 
-@section('main-content-manager')
+@section('main-content')
             <div class="content-wrapper" style="min-height: 603px;">
                 <section class="content-header">
                     <div class="alert alert-info">

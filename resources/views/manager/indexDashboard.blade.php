@@ -1,6 +1,6 @@
-@extends('manager.layouts.app')
+@extends('layouts.app')
 
-@section('main-content-manager')
+@section('main-content')
             <!-- Content Wrapper. Contains page content -->
             <div class="content-wrapper">
                 <!-- Content Header (Page header) -->

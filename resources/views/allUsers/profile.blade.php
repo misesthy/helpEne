@@ -1,7 +1,8 @@
 @extends('userPanel.layouts.app')
 
-@section('main-userPanel')
+@section('main-userPanel')no
             <!-- #masthead -->
+    <div class="content-wrapper">
             <div class="site-hero clearfix">
                 <div class="container" style="padding-left:130px;">
                     <ol class="breadcrumb breadcrumb-custom">
@@ -189,4 +190,8 @@
                             </div>
                             <div class="__cov-progress" style="background-color: rgb(0, 154, 186); opacity: 0; position: fixed; top: 0px; left: 0px; width: 0%; height: 2px; transition: opacity 0.6s ease 0s;"></div>
                         </div>
+                    </div>
+                </div>
+            </div>
+    </div>
 @endsection

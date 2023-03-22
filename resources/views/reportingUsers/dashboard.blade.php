@@ -1,4 +1,4 @@
-@extends('chat.layouts.app')
+@extends('layouts.app')
 
 @section('main-content')
             <div class="content-wrapper">

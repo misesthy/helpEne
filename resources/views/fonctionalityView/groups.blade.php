@@ -1,4 +1,4 @@
-@extends('chat.layouts.app')
+@extends('layouts.app')
 
 @section('main-content')
             <div class="content-wrapper">
@@ -9,7 +9,7 @@
                             <div class="col"></div>
                             <div class="col-auto pr-5">
                                 <div class=".modal-close-icon">
-                                    <a href="{{('chat')}}">
+                                    <a href="./chat1.html">
                                         <i class=" fas fa-window-close"></i>
                                     </a>
                                 </div>
@@ -22,7 +22,14 @@
                                 <div class="card-header border-0">
                                     <div class="row">
                                         <div class="col">
-                                            <h3>Browse Direct Messages</h3>
+                                            <h1>Browse Groups</h1>
+                                        </div>
+                                        <div class="col-auto pt-2">
+                                            <a href="./CreateGroup.html">
+                                                <button type="submit" class="btn btn-primary">
+                                                    <i class="fas fa-plus"></i> New Group
+                                                </button>
+                                            </a>
                                         </div>
                                     </div>
                                 </div>
@@ -38,15 +45,25 @@
                                                     id="group"
                                                     class="form-control"
                                                     id="exampleInputEmail1"
-                                                    placeholder="Search Direct Messages"
+                                                    placeholder="Search Groups"
                                                 >
                                                 <a id="showorhide">
                                                     <!-- <i class="fas fa-window-close"></i> --></a>
                                             </div>
                                         </div>
+                                        <div class="form-group">
+                                            <!-- <label for="exampleInputPassword1">Password</label> -->
+                                            <select class="form-control" id="groupOrder">
+                                                <option>Group Name (Ascending)</option>
+                                                <option>Group Name (Descending)</option>
+                                                <option>Created On (Ascending)</option>
+                                                <option>Created On (Descending)</option>
+                                            </select>
+                                            <!-- <input type="password" name="password" class="form-control" id="exampleInputPassword1" placeholder="Password"> -->
+                                        </div>
                                         <div class="align-center">
                                             <img src="../docs/assets/img/search.png" style="height: 150px;width: 150px;">
-                                            <h5>No Direct Messages</h5>
+                                            <h5>No Groups Found</h5>
                                         </div>
                                     </div>
                                 </form>
@@ -61,4 +78,5 @@
                     <!-- Control sidebar content goes here --></aside>
                 <!-- /.control-sidebar -->
             </div>
+            <!-- ./wrapper -->
 @endsection

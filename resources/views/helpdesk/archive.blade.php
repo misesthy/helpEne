@@ -1,8 +1,8 @@
 @extends('userPanel.layouts.app')
 
 @section('main-userPanel')
-
         
+    <div class="content-wrapper"> 
         <!-- .site-hero -->
         <!-- #masthead -->
 		
@@ -523,4 +523,5 @@
                 <!-- #main -->
             </div>
         </div>
+    </div>
 @endsection

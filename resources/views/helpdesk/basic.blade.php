@@ -1,6 +1,6 @@
-@extends('helpdesk.layouts.app')
+@extends('layouts.app')
 
-@section('main-cont')
+@section('main-content')
             <!-- Content Wrapper. Contains page content -->
             <div class="content-wrapper">
                 <!-- Content Header (Page header) -->

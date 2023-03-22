@@ -1,7 +1,7 @@
 @extends('userPanel.layouts.app')
 
-@section('main-userPanel')
-<div class="content-wrapper">
+@section('main-userPanel') no
+    <div class="content-wrapper">
             <!-- #masthead -->
             <div class="site-hero clearfix">
                 <div class="container" style="padding-left:130px;">
@@ -112,5 +112,5 @@
                     </form>
                 </div>
             </div>
-</div>
+    </div>
 @endsection

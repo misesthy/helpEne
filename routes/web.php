@@ -35,15 +35,15 @@ require __DIR__.'/auth.php';
     });
 
     Route::get('/ess', function () {
-        return view('chat.contacts');
+        return view('tickets.contacts');
     });
 
     Route::get('/es', function () {
-        return view('chat.createGroup');
+        return view('manager.createGroup');
     });
 
     Route::get('/e', function () {
-        return view('chat.dashboard');
+        return view('expert.dashboard');
     });
 
     Route::get('/i', function () {
@@ -54,24 +54,12 @@ require __DIR__.'/auth.php';
         return view('chat.groups');
     });
 
-    Route::get('/sai', function () {
-        return view('chat.liveChat');
-    });
-
     Route::get('/ssai', function () {
-        return view('chat.messaging');
+        return view('tickets.messaging');
     });
 
     Route::get('/essais', function () {
-        return view('chat.userProfile');
-    });
-
-    Route::get('/sessais', function () {
-        return view('chat.addnewclient');
-    });
-
-    Route::get('/sessaiss', function () {
-        return view('chat.newEssai');
+        return view('reportingUsers.dashboard');
     });
 
 // });
@@ -91,23 +79,23 @@ require __DIR__.'/auth.php';
 // Route::group(['prefix' => 'userPanel'], function () {
 
     Route::get('/userPanel', function () {
-        return view('userPanel.archive');
+        return view('helpdesk.archive');
     });
 
     Route::get('/userPane', function () {
-        return view('userPanel.change');
+        return view('manager.change');
     });
 
     Route::get('/userPan', function () {
-        return view('userPanel.contact');
+        return view('allUser.contact');
     });
 
     Route::get('/userPa', function () {
-        return view('userPanel.detailLogin');
+        return view('hepdesk.detailSearch');
     });
 
     Route::get('/userP', function () {
-        return view('userPanel.detail');
+        return view('helpdesk.detailSearchVideo');
     });
 
     Route::get('/user', function () {
@@ -122,9 +110,9 @@ require __DIR__.'/auth.php';
         return view('userPanel.profile');
     });
 
-    Route::get('/helpd', function () {
-        return view('userPanel.basic');
-    });
+    // Route::get('/helpd', function () {
+    //     return view('userPanel.basic');
+    // });
 
 // });
 
@@ -142,20 +130,20 @@ require __DIR__.'/auth.php';
         return view('manager.indexDashboard');
     });
 
-    Route::get('/helpd', function () {
-        return view('userPanel.basic');
-    });
+    // Route::get('/helpd', function () {
+    //     return view('userPanel.basic');
+    // });
 
-    Route::get('/helpd', function () {
-        return view('userPanel.basic');
-    });
+    // Route::get('/helpd', function () {
+    //     return view('userPanel.basic');
+    // });
 
-    Route::get('/helpd', function () {
-        return view('userPanel.basic');
-    });
+    // Route::get('/helpd', function () {
+    //     return view('userPanel.basic');
+    // });
 
-    Route::get('/helpd', function () {
-        return view('userPanel.basic');
-    });
+    // Route::get('/helpd', function () {
+    //     return view('userPanel.basic');
+    // });
 
 // });

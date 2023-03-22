@@ -2,6 +2,7 @@
 
 @section('main-userPanel')
             <!-- #masthead -->
+    <div class="content-wrapper">
             <div class="site-hero clearfix">
                 <div class="container">
                     <ol class="breadcrumb breadcrumb-custom">
@@ -171,4 +172,5 @@
                     <!--Form 2 End-->
                 </div>
             </div>
+    </div>
 @endsection
