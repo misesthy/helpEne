@@ -13,9 +13,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-// Route::get('/', function () {
-//     return view('welcome');
-// });
+Route::get('/', function () {
+    return view('welcome');
+});
 
 Route::get('/dashboard', function () {
     return view('dashboard');
@@ -87,11 +87,11 @@ require __DIR__.'/auth.php';
     });
 
     Route::get('/userPan', function () {
-        return view('allUser.contact');
+        return view('allUsers.contact');
     });
 
     Route::get('/userPa', function () {
-        return view('hepdesk.detailSearch');
+        return view('helpdesk.detailSearch');
     });
 
     Route::get('/userP', function () {

@@ -1,6 +1,6 @@
-@extends('userPanel.layouts.app')
+@extends('layouts.app')
 
-@section('main-userPanel')
+@section('main-content')
             <!-- #masthead -->
     <div class="content-wrapper">
             <div class="site-hero clearfix">

@@ -40,18 +40,23 @@
         <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" type="text/css">
         <link rel="stylesheet" href="assets/font-awesome/css/all.min.css" type="text/css">
         <link rel="stylesheet" href="assets/app/css/app.css" type="text/css">
-        {{-- <link rel="stylesheet" href="assets/app/css/edit.css" type="text/css"> --}}
+        <link rel="stylesheet" href="assets/app/css/edit.css" type="text/css"> 
     </head>
     <body class="hold-transition sidebar-mini">
         <div class="wrapper">
 
             @include('layouts.navigation');
             @include('layouts.sidebar');
-
+            
+            
             <!-- Page Content -->
             <main>
                 @yield('main-content');
             </main>
+
+            {{-- <div class="container">
+                @include('layouts.headerSearch');
+            </div> --}}
 
             <footer>
                 @include('layouts.footer');
