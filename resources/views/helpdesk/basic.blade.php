@@ -86,5 +86,6 @@
                 </div>
                 <!-- /.content -->
             </div>
+            {{-- {{ dd(Route::current()->getname())}} --}}
             <!-- /.content-wrapper -->
 @endsection          

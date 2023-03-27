@@ -1,12 +1,12 @@
 
 .btn-lost {
   color: white;
-  background-color: #f0ad4e;
-    border-color: #f0ad4e;
+  background-color: #4ef080;
+    border-color: #2ced56;
 }
 .btn-lost:hover{
-    background-color: #ed9c2c;
-    border-color: #ed9c2c;
+    background-color: #2ced56;
+    border-color: #2ced56;
     color: white;
 
 }

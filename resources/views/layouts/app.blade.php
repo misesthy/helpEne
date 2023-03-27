@@ -45,13 +45,13 @@
     <body class="hold-transition sidebar-mini">
         <div class="wrapper">
 
-            @include('layouts.navigation');
-            @include('layouts.sidebar');
+            @include('layouts.navigation')
+            @include('layouts.sidebar')
             
             
             <!-- Page Content -->
             <main>
-                @yield('main-content');
+                @yield('main-content')
             </main>
 
             {{-- <div class="container">
@@ -59,7 +59,7 @@
             </div> --}}
 
             <footer>
-                @include('layouts.footer');
+                @include('layouts.footer')
             </footer>
             <!-- Control Sidebar -->
             <aside class="control-sidebar control-sidebar-dark">
@@ -93,7 +93,10 @@
         <script src="../plugins/bs-stepper/js/bs-stepper.min.js"></script>
         <!-- dropzonejs -->
         <script src="../plugins/dropzone/min/dropzone.min.js"></script>
+        <!-- AdminLTE App -->
+        <script src="../dist/js/adminlte.min.js"></script>
         <!-- Page specific script -->
+        
         <script>
             $('.toastsDefaultSuccess').click(function() {
                 $(document).Toasts('create', {

@@ -22,6 +22,7 @@ Route::get('/dashboard', function () {
 })->middleware(['auth'])->name('dashboard');
 
 require __DIR__.'/auth.php';
+require __DIR__.'/users/user.php';
 
 
 // Route::group(['prefix' => 'chat'], function () {
@@ -67,8 +68,9 @@ require __DIR__.'/auth.php';
 
 // Route::group(['prefix' => 'helpdesk'], function () {
 
-    Route::get('/helpd', function () {
+    Route::get('/basic', function () {
         return view('helpdesk.basic');
+    // })->middleware(['auth'])->name('helpdesk.basic')
     });
 
     Route::get('/help', function () {
@@ -110,9 +112,6 @@ require __DIR__.'/auth.php';
         return view('userPanel.profile');
     });
 
-    // Route::get('/helpd', function () {
-    //     return view('userPanel.basic');
-    // });
 
 // });
 
@@ -130,20 +129,9 @@ require __DIR__.'/auth.php';
         return view('manager.indexDashboard');
     });
 
-    // Route::get('/helpd', function () {
-    //     return view('userPanel.basic');
-    // });
+    Route::get('/test', function () {
+        return view('test');
+    });
 
-    // Route::get('/helpd', function () {
-    //     return view('userPanel.basic');
-    // });
-
-    // Route::get('/helpd', function () {
-    //     return view('userPanel.basic');
-    // });
-
-    // Route::get('/helpd', function () {
-    //     return view('userPanel.basic');
-    // });
-
+    
 // });
